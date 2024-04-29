@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane maxHeight="595.0" maxWidth="1368.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="1268.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.posted.HelloController">
+  <tabs>
+    <Tab text="Manage Emoloyees">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="505.0" prefWidth="1219.0" />
+      </content>
+    </Tab>
+    <Tab style="-fx-background-color: #C4DDEF;" text="Manage Products">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="566.0" prefWidth="1410.0" style="-fx-background-color: #C4DDEF;">
+               <children>
+                  <Button layoutX="601.0" layoutY="113.0" mnemonicParsing="false" style="-fx-background-color: #FFCF00;" text="Add product" />
+                  <TextField id="text-box" fx:id="productSearch" layoutX="478.0" layoutY="55.0" onAction="#onProductSearchButtonClick" prefHeight="34.0" prefWidth="354.0" promptText="Click here to scan product or type serial number." scaleShape="false" style="-fx-border-color: #FFCF00; -fx-background-color: #485613;" stylesheets="@style.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></TextField>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Reports">
+          <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+      </Tab>
+  </tabs>
+</TabPane>

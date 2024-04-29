@@ -21,7 +21,7 @@ public class HelloController {
     @FXML
     protected void onProductSearchButtonClick() throws IOException {
         HelloApplication app = new HelloApplication();
-        Stage stage = new Stage();
-        app.screenTwo(stage);
+        Stage stage2 = new Stage();
+        app.screenTwo(stage2);
     }
 }

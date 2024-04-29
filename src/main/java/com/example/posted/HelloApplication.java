@@ -4,10 +4,12 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
+
+
 public class HelloApplication extends Application {
+    public boolean switched = false;
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -17,15 +19,17 @@ public class HelloApplication extends Application {
         stage.setFullScreen(true);
 
         stage.setScene(scene);
-        stage.show();
+        if (!this.switched){stage.show();}
     }
     public void screenTwo(Stage stage) throws IOException{
         FXMLLoader floader = new FXMLLoader(HelloApplication.class.getResource("home-view.fxml"));
         Scene scene2 = new Scene(floader.load(), 320, 240);
         stage.setTitle("Home");
         stage.setScene(scene2);
+        this.switched = true;
         stage.show();
     }
+
 
 
     public static void main(String[] args) {

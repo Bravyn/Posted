@@ -47,7 +47,7 @@
                         <Blend />
                      </effect>
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #FFCF00;" text=" Edit Product " />
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #FFCF00;" text=" Edit Product " />
                      </children>
                   </VBox>
                   <VBox layoutX="776.0" layoutY="190.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;">
@@ -63,7 +63,7 @@
                         <Blend />
                      </effect>
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" style="-fx-background-color: #FFCF00;" text="Order New" />
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: #FFCF00;" text="Order New" />
                      </children>
                   </VBox>
                </children></AnchorPane>

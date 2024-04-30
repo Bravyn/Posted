@@ -16,14 +16,56 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="566.0" prefWidth="1410.0" style="-fx-background-color: #C4DDEF;">
                <children>
-                  <Button layoutX="601.0" layoutY="113.0" mnemonicParsing="false" style="-fx-background-color: #FFCF00;" text=" Remove Product" />
-                  <TextField id="text-box" fx:id="productSearch" layoutX="478.0" layoutY="55.0" onAction="#onProductSearchButtonClick" prefHeight="34.0" prefWidth="354.0" promptText="Click here to scan product or type serial number." scaleShape="false" style="-fx-border-color: #FFCF00; -fx-background-color: #485613;" stylesheets="@style.css">
+                  <TextField id="text-box" fx:id="productSearch" layoutX="476.0" layoutY="102.0" onAction="#onProductSearchButtonClick" prefHeight="34.0" prefWidth="354.0" promptText="Click here to scan product or type serial number." scaleShape="false" style="-fx-border-color: #FFCF00; -fx-background-color: #485613;" stylesheets="@style.css" AnchorPane.topAnchor="102.0">
                      <effect>
                         <DropShadow />
                      </effect>
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font></TextField>
+                  <VBox layoutX="261.0" layoutY="193.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;" AnchorPane.topAnchor="193.0">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #FFCF00;" text=" Remove Product" />
+                     </children></VBox>
+                  <VBox layoutX="441.0" layoutY="193.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <VBox layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;">
+                           <effect>
+                              <Blend />
+                           </effect>
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="164.0" style="-fx-background-color: #FFCF00;" text=" Add Product" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="605.0" layoutY="193.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #FFCF00;" text=" Edit Product " />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="776.0" layoutY="190.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #FFCF00;" text=" Apply Discount" />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="955.0" layoutY="190.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.79" prefWidth="155.0" style="-fx-background-color: #fff;">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" style="-fx-background-color: #FFCF00;" text="Order New" />
+                     </children>
+                  </VBox>
                </children></AnchorPane>
       </content>
     </Tab>
